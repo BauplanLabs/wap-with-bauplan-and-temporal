@@ -17,6 +17,8 @@ Data engineering best practices suggest the Write-Audit-Publish (WAP) pattern, w
 
 This repository showcases how [Temporal](https://temporal.io) and [Bauplan](https://www.bauplanlabs.com/) can be used to implement WAP in a few lines of no-nonsense Python code: no knowledge of the JVM, SQL or Iceberg is required.
 
+Quick link: if you only have 3 minutes, you can start by watching our video walkthrough on how we [run the repo from scratch](https://www.loom.com/share/817d6f3fe9d14dc7866789617a9a6eed) installing the packages locally and launching the workflow!
+
 ## Setup
 
 ### Bauplan
@@ -65,7 +67,9 @@ python run_workflow.py
 
 ## Where to go from here
 
-TBC
+You can continue your exploration of Bauplan by checking end-to-end [examples](https://docs.bauplanlabs.com/en/latest/examples/index.html) covering common use cases in ML / AI / data infrastructure: if you want to learn more about the underlying architecture and design choices, please refer to our [latest paper](https://arxiv.org/pdf/2410.17465).
+
+To learn more about Temporal Cloud, you can head over to their website to start a [free trial](https://temporal.io/cloud).
 
 ## License
 
