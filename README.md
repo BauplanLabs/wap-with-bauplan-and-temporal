@@ -37,7 +37,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Make a copy of the `local.env` file as `.env` and fill in the required values for the WAP flow: the name of the table, the name of the branch (in the usual [format](https://docs.bauplanlabs.com/en/latest/concepts/branches.html): <username>.<branch>), the S3 path containing the files to ingest (if using the sandbox, make sure the bucket has public reads enabled), the namespace. For example:
+Make a copy of the `local.env` file as `.env` and fill in the required values for the WAP flow: the name of the table, the name of the branch (in the usual [format](https://docs.bauplanlabs.com/en/latest/concepts/branches.html): `user_name.branch_name`), the S3 path containing the files to ingest, the namespace. For example:
 
 ```bash
 TABLE_NAME=temporal_test
@@ -65,7 +65,7 @@ python run_workflow.py
 
 ## Where to go from here
 
-TBC -> Temporal Cloud
+TBC
 
 ## License
 
